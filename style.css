@@ -1,0 +1,155 @@
+
+body {
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    flex-grow: 0;
+    margin: 0;
+
+}
+.first-block {
+display: flex;
+flex-direction: column;
+background-color: #1F2937;
+justify-content: space-between;
+/* align-items: center; */
+padding-left: 40px  ;
+padding-right: 40px;
+padding-bottom: 80px;
+gap:20px;
+
+}
+.hero {
+    font-weight: bolder;
+    font-size: 48px;
+    color: #F9FAF8;
+}
+
+.hero-text
+{
+    font-size: 18px ;
+    color: #E5E7EB;
+}
+
+a {
+    font-size: 18px ;
+    color: #E5E7EB;
+}
+.hero-logo {
+    font-size: 24px;
+    color: #F9FAF8;
+}
+.header,
+.texto-img {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.texto-img {
+    gap: 20px;
+
+}
+.logo {
+    width: 650px;
+    height: 200px;
+}
+
+
+ul {
+    display: flex;
+    list-style-type: none;
+    gap: 16px;   
+
+}
+.second-block {
+    padding:40px ;
+
+}
+.contenedor {
+    display: flex;
+    gap: 16px;
+    text-align: center;
+    justify-content: center;
+}
+.titulo {
+    text-align: center;
+    padding-bottom: 30px;
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1F2937;
+}
+img {
+    width: 100px;
+    height: 100px;
+}
+
+.info {
+    max-width: 200px;
+}
+a {
+    text-decoration: none;
+}
+
+.third-block {
+    background-color: #E5E7EB;
+    display: flex;
+    flex-direction: column;
+    padding: 40px;
+}
+.relleno {
+    text-align: center;
+    align-self: center;
+    font-size: 36px;
+    color: #1F2937;
+    font-style: italic;
+}
+.autor {
+    align-self: flex-end;
+    font-weight: bolder;
+}
+
+.fourth-block {
+    display: flex;
+    align-self: center;
+    justify-content: space-around;
+    align-items: center;
+    width: 500px;
+    background-color: #3882f6;
+    margin: 30px;
+    padding: 35px 35px;
+    color: whitesmoke;
+    border-radius: 5px;
+
+}
+
+.titulo-dos {
+    font-weight: bolder;
+}
+
+button {
+    padding-left: 25px;
+    padding-right: 25px;
+    background-color: #3882f6;
+    color: whitesmoke;
+    border-radius: 5px;
+    /* border-style: none; */
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.boton-inicial {
+    border:0;
+}
+.boton-final {
+    border: white solid 2px;
+    /* border-style: none; */
+}
+footer {
+    background-color: #1F2937;
+    text-align: center;
+    box-sizing: border-box;
+    color: #F9FAF8;
+    padding: 20px;
+    font-weight: 18px;
+}
